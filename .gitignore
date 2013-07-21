@@ -54,9 +54,3 @@ dwsync.xml
 intermediate
 publish
 .idea
-
-# Disregard any previous rules if the file is specific to Git
-
-!.gitattributes
-!.gitignore
-!.gitkeep
