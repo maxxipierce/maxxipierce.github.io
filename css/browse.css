@@ -143,10 +143,18 @@ body {
 	padding: 0;
 }
 
+
+
+
+
+
 .site-footer {
 	border-top: 1px solid #e5e5e5;
 	margin-top: 20px;
 	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	height: 30px;
 }
 
 .site-footer a {
