@@ -41,7 +41,18 @@ body {
 .site-header {
   background: url('../img/header-background.png') repeat-x #3fa9f5;
   height: 50px;
+  position: relative;
+}
 
+.site-header:after {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  content: '';
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .site-header .brand {
@@ -92,8 +103,9 @@ body {
 
 
 .main-container {
-  margin: 0 0;
+  margin-top: 20px;
 }
+
 
 .content {
   width: 570px;
@@ -101,41 +113,32 @@ body {
 .banner {
   display: block;
   margin: 0;
-  padding: 0;
-  background: url('../img/home-banner.png') no-repeat;
-  width: 900px;
-  height: 292px;
+  padding: 60px 0 0;
+  background: url('../img/home-banner.png') center bottom repeat-x;
+  background-size: 100% auto;
+  height: 232px;
 }
 
-
-
-
-
-
-
-.headline {
-  margin: 0;
-  padding: 70px 0 0 ;
+.banner-text {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 30px 0;
   text-align: center;
-  font-size: 24px;
-  color: white;
-  text-shadow: 1px 1px 0 black;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 
-.sub-head {
+.banner-text h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.banner-text p  {
   margin: 0 50px;
   padding: 10px 50px 0;
-  text-align: center;
   font-size: 16px;
-  color: white;
-  text-shadow: 0 1px 0 black;
 }
-
-
-
-
-
-
 
 .invite {
   margin: 10px auto;
@@ -159,9 +162,9 @@ float: left;
 .invite-form button {
 background-color: #333;
 border-radius: 0 3px 3px 0;
-border: 1px solid #333;
+border: 0px solid #333;
 margin: 0 auto;
-height: 32px;
+height: 32  px;
 text-align: center;
 line-height: 30px;
 color: #fff;
@@ -172,31 +175,8 @@ float: left;
 
 
 
-.circle {
-	margin: 20px 50px 10px 120px;
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	color: #eee;
-	line-height: 100px;
-	background: #ebebeb;	
-}
 
-.icon-question {
-	padding: 70px 30px 0 20px;
-	color: #828282;
-}
 
-.icon-rocket {
-	margin: 30% 10% 0;
-	padding: 10px 0;
-	color: #828282;
-}
-
-.icon-group {
-	margin: 30px 0;
-	color: #828282;
-}
 
 
 .sub-title {
@@ -213,6 +193,39 @@ float: left;
 	text-align: center;
 }
 
+
+
+.col {
+  width: 30%;
+  text-align: center;
+}
+
+.col:first-child {
+  margin-left: 5%;
+}
+
+.circle {
+  margin: 20px auto 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  color: #eee;
+  line-height: 100px;
+  text-align: center;
+  background: #ebebeb;
+}
+
+.circle [class^='icon'],
+.circle [class^=' icon'] {
+  vertical-align: middle;
+  color: #828282;
+  font-size: 58px;
+}
+
+
+.circle .icon-question {
+  font-size: 70px;
+}
 
 
 
