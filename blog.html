@@ -7,87 +7,203 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-
-<title>Maxxi's Version</title>
-  <meta name="description" content="This site is about Renting!">
+  <title>RentTree</title>
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/blog.css">
-
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/vendor/font-awesome.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
 </head>
-
 <body>
-<header class="site-header clearfix">
+<div id="wrap">
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".responsive-navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">RentTree</a>
+        <div class="nav-collapse collapse responsive-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <form class="navbar-form pull-right" action="">
+            <input type="text" class="form-control col-lg-8" placeholder="Search">
+          </form>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="signup.html">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   <div class="container">
-   <a href="index.html" class="brand pull-left">
-    Renttree</a>
-  <div class="nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="browse.html">Browse</a></li>
-      <li><a href="help.html">Help</a></li>
-      <li><a href="blog.html">Blog</a></li>
-    </ul>
+    <div class="row">
+      <div class="col-lg-8">
+        <div id="carousel-example-generic" class="carousel slide">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/house1.jpg" alt="">
+              <div class="carousel-caption">
+                Original
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/house2.jpg" alt="">
+              <div class="carousel-caption">
+                Modern
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/house3.jpg" alt="">
+              <div class="carousel-caption">
+                Traditional
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
+        </div>
+
+        <div id="mauris-laoreet-imperdiet">
+        <div class="page-header">
+          <h3>Mauris Laoreet Imperdiet</h3>
+          <ul class="list-inline">
+            <li><i class="icon-calendar"></i> July 28, 2013</li>
+            <li><i class="icon-user"></i> User</li>
+            <li><i class="icon-folder-close"></i> Gravida Est</li>
+          </ul>
+        </div>
+        <div class="clearfix">
+          <p>Nam in elit risus. Nullam neque augue, bibendum vel purus in, congue tempor tortor. Duis placerat mi vitae congue convallis. Vivamus faucibus velit sed nisl luctus, vitae molestie magna hendrerit. Praesent pharetra ornare nulla, ac ornare nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec adipiscing quam eu augue interdum blandit ac quis justo. Donec dignissim dictum suscipit. Nam quis nulla gravida, volutpat magna et, cursus quam. Nam neque lorem, sodales at nisl nec, tincidunt ornare magna. Aenean vestibulum eros vel odio imperdiet, at bibendum arcu gravida. Nulla sit amet erat sem. Suspendisse tristique luctus quam ac pulvinar. Sed elementum euismod neque, sit amet mollis nibh vestibulum ut. Maecenas sodales justo ac quam porttitor facilisis. Aliquam aliquet, massa sit amet venenatis laoreet, diam nunc pharetra purus, nec tristique erat dolor sed purus.</p>
+
+          <p>Curabitur quis viverra arcu. Suspendisse diam arcu, convallis sit amet egestas vel, luctus in urna. Duis pulvinar, urna sed ultricies imperdiet, ligula nisi iaculis orci, non aliquam augue nisi non tellus. Nam a elit augue. Proin venenatis magna accumsan iaculis hendrerit. Etiam id elementum nisl. Vestibulum tincidunt, elit id posuere rutrum, libero erat ultricies neque, ac sagittis arcu libero viverra eros. Curabitur adipiscing turpis porttitor diam imperdiet blandit. Aenean sit amet molestie mi, sed rhoncus quam. Duis vitae dolor elit. Fusce congue mauris diam, id mattis est porta quis. Sed condimentum nisl vitae nisi facilisis, non euismod mauris aliquet... <a href="#">Read More</a></p>
+        </div>
+      </div>
+
+       <div id="morbi-eu-consequat">
+        <div class="page-header">
+          <h3>Morbi Eu Consequat</h3>
+          <ul class="list-inline">
+            <li><i class="icon-calendar"></i> July 28, 2013</li>
+            <li><i class="icon-user"></i> User</li>
+            <li><i class="icon-folder-close"></i> Varius Sapien</li>
+          </ul>
+        </div>
+        <div class="clearfix">
+          <p>Nunc scelerisque ipsum vestibulum, tincidunt diam eget, fringilla justo. Nunc blandit vulputate aliquam. Donec ac luctus ipsum. Nulla placerat vitae augue id vulputate. Cras semper velit at nunc dapibus, quis dapibus nisi bibendum. Nulla sed leo consectetur, elementum tortor in, suscipit leo. Ut varius sapien lobortis mi feugiat, et pharetra dolor ultrices. Duis vel quam diam. Nunc lobortis, massa id adipiscing sollicitudin, turpis nulla rhoncus nisl, id euismod odio lacus non risus. Morbi placerat venenatis enim at placerat. Nam egestas quis est eget facilisis. Sed vel nibh lacus. Aenean turpis libero, sollicitudin iaculis risus ac, fermentum facilisis nisl. Curabitur mollis, justo at facilisis gravida, ipsum justo sodales enim, quis consectetur velit massa posuere velit. Donec et ipsum ut ligula tincidunt porta vel at ante.</p>
+
+          <p>Nam dictum augue id libero accumsan, a convallis elit auctor. Cras cursus purus nec tristique consequat. Nulla id dignissim neque. Aenean pretium tellus et bibendum facilisis. Nulla mollis sapien vel enim porttitor, non lobortis lacus dictum. Aliquam arcu massa, egestas at cursus vel, convallis nec erat. Nullam eu congue felis. Aenean facilisis risus aliquam velit posuere, sit amet mattis magna aliquam. Mauris sed quam eget lorem condimentum dictum. Fusce at mauris in quam pretium molestie. Morbi dictum, sem ac semper imperdiet, mauris ipsum feugiat tortor, ac malesuada eros massa id nibh. Integer quam enim, faucibus ac dapibus vel, accumsan at dui. Nulla egestas mi tristique, feugiat nisl nec, viverra sapien. Vivamus sed semper urna...<a href="#">Read More</a></p>
+        </div>
+      </div>
+
+       <div id="aliquam-erat">
+        <div class="page-header">
+          <h3>Aliquam Erat</h3>
+          <ul class="list-inline">
+            <li><i class="icon-calendar"></i> July 28, 2013</li>
+            <li><i class="icon-user"></i> User</li>
+            <li><i class="icon-folder-close"></i> Fusce Vel Nulla</li>
+          </ul>
+        </div>
+        <div class="clearfix">
+          <p>Cras at lorem eget est interdum iaculis. Nunc mollis mattis velit. Morbi sodales magna vitae vestibulum semper. Maecenas viverra hendrerit diam eu consequat. Etiam adipiscing bibendum nibh, eget auctor erat aliquam et. Nunc non volutpat mauris. Vivamus suscipit mi lorem, eget fermentum elit accumsan sed. Ut viverra tempor ipsum, fringilla consectetur purus lacinia nec.</p>
+
+          <p>Etiam suscipit enim nisi, eu facilisis felis gravida non. Mauris a augue eget magna laoreet tincidunt. Mauris vulputate tristique enim, vitae pharetra felis condimentum et. Suspendisse at dolor vitae augue ultrices posuere. Quisque ac mollis sem. Proin mattis mauris ac quam consequat, nec tincidunt tortor euismod. Aliquam erat volutpat. Vestibulum laoreet tristique venenatis. Mauris luctus sollicitudin euismod. Donec laoreet, tellus eu dictum eleifend, dolor mauris dapibus ligula, venenatis dapibus quam purus non orci. Cras et diam fermentum, rutrum tortor sed, dignissim augue. Quisque quis sapien non quam malesuada adipiscing ac congue dui. Vivamus iaculis nibh quis libero tincidunt iaculis...<a href="#">Read More</a></p>
+        </div>
+      </div>
+
+       <div id="proin-mattis-nulla">
+        <div class="page-header">
+          <h3>Proin Mattis Nulla</h3>
+          <ul class="list-inline">
+            <li><i class="icon-calendar"></i> July 28, 2013</li>
+            <li><i class="icon-user"></i> User</li>
+            <li><i class="icon-folder-close"></i> Cras Semper</li>
+          </ul>
+        </div>
+        <div class="clearfix">
+          <p>Pellentesque id suscipit eros, ut aliquet erat. Mauris tortor nibh, porta non quam at, aliquet venenatis metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In non libero in massa egestas viverra. Sed cursus pellentesque mi non bibendum. Aenean erat lectus, fermentum id pharetra id, adipiscing cursus est. Proin non velit laoreet urna pretium pretium porttitor tempor lacus. Phasellus tincidunt sed turpis a ultrices. Nulla sed egestas tellus. Curabitur ullamcorper eleifend ante, ut tincidunt tortor. Maecenas at pharetra odio. Quisque vestibulum augue et sollicitudin interdum.</p>
+
+          <p>Sed in tortor sit amet mi feugiat molestie. Ut eu massa quam. Phasellus porttitor posuere sapien, aliquam iaculis mi suscipit vitae. Suspendisse potenti. Phasellus interdum eleifend augue. Proin nec egestas dui. Duis vitae mattis dui. Nunc a porta dui. Ut non ante gravida, ultrices magna non, luctus tortor. Sed et metus ultricies, suscipit eros sit amet, tincidunt nulla. Morbi orci orci, volutpat sit amet turpis sit amet, lobortis dictum dui. Pellentesque et vestibulum tellus, in accumsan justo.... <a href="#">Read More</a></p>
+        </div>
+      </div>
+
+       <div id="nunc-iaculis">
+        <div class="page-header">
+          <h3>Nunc Iaculis</h3>
+          <ul class="list-inline">
+            <li><i class="icon-calendar"></i> July 28, 2013</li>
+            <li><i class="icon-user"></i> User</li>
+            <li><i class="icon-folder-close"></i> Dictum Eleifend</li>
+          </ul>
+        </div>
+        <div class="clearfix">
+          <p>Etiam massa sem, ultricies in lectus sed, ullamcorper porttitor nisl. Etiam vitae orci vel mauris rutrum cursus sit amet ac eros. Fusce elementum lacus eleifend lobortis venenatis. Curabitur adipiscing eleifend est, ultricies auctor dui molestie vel. Phasellus euismod volutpat ligula, sed vestibulum lectus porta at. Integer auctor, augue non lacinia convallis, eros mi rutrum tortor, quis egestas mauris odio ut odio. Phasellus tempor id ligula sit amet suscipit. Aliquam erat volutpat.</p>
+
+          <p>Ut condimentum lectus pretium, tincidunt arcu sed, ultricies urna. Vivamus pharetra orci eu neque fermentum, quis pharetra diam eleifend. Vivamus tellus magna, venenatis non porttitor at, gravida nec justo. Aliquam scelerisque orci molestie porta bibendum. Nam et hendrerit nunc. Morbi fermentum leo non mi bibendum, in pretium tortor interdum. Praesent porttitor tincidunt orci, mattis blandit risus auctor non. Fusce et turpis molestie, rhoncus lorem nec, laoreet mauris. Vivamus bibendum, sem ac pretium volutpat, velit nisl blandit quam, ut interdum nulla tellus ut sapien. In hac habitasse platea dictumst. Suspendisse potenti. Aenean non iaculis massa. Nam aliquam felis id odio dapibus scelerisque. Duis eu pharetra sapien, in sagittis elit.... <a href="#">Read More</a></p>
+        </div>
+      </div>
+
+
+      </div>
+      <div class="col-lg-4">
+        <div class="panel">
+          <div class="panel-heading">Posts</div>
+          <p>Proin ut pharetra eros. Sed pellentesque, magna ut iaculis sollicitudin, sapien libero vulputate dolor, nec mollis turpis felis non libero. Mauris placerat congue dui vel placerat. Integer pharetra arcu eget diam hendrerit, non mattis libero semper. Suspendisse hendrerit, ante vel tincidunt pellentesque, urna leo pharetra felis, a congue quam turpis eget purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <div class="list-group list-group-flush">
+            <a href="#mauris-laoreet-imperdiet" class="list-group-item active">Mauris Laoreet Imperdiet</a>
+            <a href="#morbi-eu-consequat" class="list-group-item">Morbi Eu Consequat</a>
+            <a href="#aliquam-erat" class="list-group-item">Aliquam Erat</a>
+            <a href="#proin-mattis-nulla" class="list-group-item">Proin Mattis Nulla</a>
+            <a href="#nunc-iaculis" class="list-group-item">Nunc Iaculis</a>
+          </div>
+        </div>
+     </div>
+    </div>
   </div>
-  </div>
- </header>
-
-
-
- <div class="container">
-  <div class="main-container clearfix" role="main">
-
-  <div class="changeable">Content
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="site-footer clearfix a">
-  <ul class="pull-left">
-   <li>&copy; 2013 RentTree, LLC</li>
-   <li><a href="terms.html">Terms</a></li>
-   <li><a href="privacy.html">Privacy</a></li>
-  </ul>
-  <ul class="pull-right">
-   <li><a href="about.html">About Us</a></li>
-  </ul>
- </footer>
-
 </div>
 
+<div class="footer-container">
+    <div class="container clearfix">
+      <p class="pull-right">
+        <a href="about.html">About Us</a>
+      </p>
+      <p class="text-muted">&copy; RentTree, LLC  &nbsp; &nbsp; <a href="terms.html">Terms</a> &nbsp; &nbsp; <a href="privacy.html">Privacy</a>.</p>
+    </div>
+  </div>
 
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+  <!-- 3rd Party Components -->
+  <script src="js/vendor/jquery-1.10.2.min.js"></script>
+  <script src="js/vendor/holder-2.0.0.js"></script>
 
+  <!-- Kenzie Likes Waffles -->
+  <script src="js/bootstrap.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/holder.js"></script>
   <script src="js/main.js"></script>
-
-
 
 </body>
 </html>

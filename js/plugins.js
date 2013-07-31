@@ -1,5 +1,5 @@
-// JavaScript Document// Avoid `console` errors in browsers that lack a console.
 (function() {
+
     var method;
     var noop = function () {};
     var methods = [
@@ -19,6 +19,5 @@
             console[method] = noop;
         }
     }
-}());
 
-// Place any jQuery/helper plugins in here.
+}());

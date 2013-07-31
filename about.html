@@ -7,76 +7,80 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Maxxi's Version</title>
-  <meta name="description" content="This site is about Renting!">
+  <title>RentTree</title>
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/vendor/font-awesome.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
-
 <body>
+<div id="wrap">
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".responsive-navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">RentTree</a>
+        <div class="nav-collapse collapse responsive-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <form class="navbar-form pull-right" action="">
+            <input type="text" class="form-control col-lg-8" placeholder="Search">
+          </form>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="signup.html">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
- <header class="site-header">
   <div class="container">
-   <a href="index.html" class="brand pull-left">
-    RentTree</a>
-   <div class="nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="browse.html">Browse</a></li>
-      <li><a href="help.html">Help</a></li>
-      <li><a href="blog.html">Blog</a></li>
-    </ul>
-  </div>
-  </div>
- </header>
-
- <div class="container">
-  <div class="main-container clearfix" role="main">
-   <div class="sidebar pull-left">
-   <ul>
-    <li><a href="terms.html">Terms of Service</a></li>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li class="selected"><a href="about.html">About Us</a></li>
-  </ul>
-  </div>
-
-  <div class="content pull-right">
-   <div class="page-heading">Welcome to RentTree
-   </div>
-
-   <div class="sub-head">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero tortor, ornare at massa ut, imperdiet condimentum felis. Nunc ultrices eget nisl sed auctor.</p>
+    <div class="row">
+      <div class="col-lg-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li class="active"><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-9">
+        <div class="page-header">
+          <h1>About Us</h1>
+        </div>
+        <p>Proin blandit, ligula in consequat dignissim, neque turpis tincidunt purus, a venenatis tortor orci vitae ante. Sed porta tempor libero, a luctus augue laoreet sed. Ut faucibus, elit non tristique posuere, felis libero viverra lacus, vel laoreet orci nibh in mi. Nunc nunc ipsum, mattis eget dui nec, pretium fermentum diam. Sed semper nisl eu tortor cursus molestie. Vivamus et ullamcorper leo, ut rhoncus odio. Nulla sodales purus et purus consequat accumsan. Mauris non dictum lacus. In sed arcu pulvinar, bibendum tellus egestas, ultrices ipsum. Integer sed libero felis.</p>
+        <p>Aenean vel libero dapibus, aliquet turpis a, luctus augue. Nam in est bibendum, viverra nisl at, auctor orci. Nam vel elementum massa. Nullam ullamcorper lacinia condimentum. Sed id metus pulvinar, faucibus sem pulvinar, dignissim urna. Aenean laoreet lacus eu eros fermentum placerat. Phasellus pellentesque dignissim tincidunt. Donec feugiat, metus vitae facilisis dictum, enim orci tincidunt sapien, vitae pulvinar justo sem vitae massa. Suspendisse vitae quam volutpat, tempus dolor eget, rhoncus dui. Vivamus cursus metus nisl, at ultricies lacus ullamcorper quis.</p>
+        <p>Praesent vel tincidunt neque. Quisque gravida bibendum porttitor. Etiam pulvinar et ligula at fermentum. Proin ut lorem eu nisi volutpat egestas. Nam mattis odio a ante congue dictum. Quisque augue lacus, sodales eu velit a, gravida accumsan lectus. Sed tempus nibh quis adipiscing commodo. Quisque sed elit turpis. Vestibulum metus ipsum, lobortis ac lobortis non, porttitor id ipsum. Aliquam massa metus, tempus nec risus sed, adipiscing feugiat sem.</p>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="body-text ">
-    <p>Donec egestas eros id interdum congue. Morbi non lorem facilisis, luctus justo eu, venenatis quam. Proin luctus sapien ac purus sagittis consequat. Cras nibh nisi, hendrerit blandit ornare nec, suscipit non urna. Ut eu mauris elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit facilisis sem ut faucibus. Quisque fringilla nunc sit amet risus congue, ut vestibulum augue vulputate. Aliquam laoreet pretium lacus ut condimentum. Aenean aliquet blandit elit ac feugiat. Fusce vel cursus nunc. Donec id lacus consequat, dapibus lacus vitae, suscipit nisi. Donec id sapien sit amet leo accumsan condimentum in et nulla. Aenean faucibus nunc ac scelerisque pellentesque.</p>
+<div class="footer-container">
+    <div class="container clearfix">
+      <p class="pull-right">
+        <a href="about.html">About Us</a>
+      </p>
+      <p class="text-muted">&copy; RentTree, LLC  &nbsp; &nbsp; <a href="terms.html">Terms</a> &nbsp; &nbsp; <a href="privacy.html">Privacy</a>.</p>
     </div>
-   </div>
   </div>
 
+  <!-- 3rd Party Components -->
+  <script src="js/vendor/jquery-1.10.2.min.js"></script>
+  <script src="js/vendor/holder-2.0.0.js"></script>
 
-   <footer class="site-footer clearfix">
-    <ul class="pull-left">
-     <li>&copy; 2013 RentTree, LLC</li>
-     <li><a href="terms.html">Terms</a></li>
-     <li><a href="privacy.html">Privacy</a></li>
-    </ul>
-    <ul class="pull-right">
-     <li><a href="about.html">About Us</a></li>
-    </ul>
-   </footer>
-  </div>
-
-
-
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
+  <!-- Kenzie Likes Waffles -->
+  <script src="js/bootstrap.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/holder.js"></script>
   <script src="js/main.js"></script>
+
 </body>
 </html>
