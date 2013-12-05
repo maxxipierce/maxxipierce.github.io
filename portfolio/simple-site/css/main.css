@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+
+pre {
+  background-color: #333;
+  border-radius: 10px;
+  margin: 0 0 20px;
+  padding: 20px 20px 0;
+  font-size: 11px;
+  color: #fff;
+}
+
+blockquote {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 2px solid rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+blockquote p:first-child {
+  margin-top: 0;
+}
+
+blockquote p:last-child {
+  margin-top: 0;
+}
+
+.site-banner {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.site-banner h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.8);
+}
+
+.main-container {
+  margin: 0 auto;
+  width: 990px;
+}
+
+.main-container:before,
+.main-container:after {
+  content: " ";
+  display: table;
+}
+
+.main-container:after {
+  clear: both;
+}
+
+.ui-section {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+  width: 440px;
+  float: left;
+}
+
+.ui-section:first-child {
+  margin-right: 20px;
+}
+
+.ui-section-header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 0 0 20px;
+}
+
+.ui-section-header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.ui-article {
+}
+
+.ui-article-header {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ui-article-header h3 {
+  margin: 0;
+  padding: 0;
+}
