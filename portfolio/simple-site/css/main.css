@@ -104,3 +104,65 @@ blockquote p:last-child {
   margin: 0;
   padding: 0;
 }
+
+.btn {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  color: #333;
+}
+
+.btn:hover,
+.btn-hover {
+  box-shadow: inset 0 0 3px 5px rgba(0, 0, 0, 0.075);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active,
+.btn-active {
+  box-shadow: inset 0 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:disabled,
+.btn-disabled,
+.btn-disabled:hover,
+.btn-disabled.btn-hover {
+  box-shadow: none;
+  opacity: 0.4;
+}
+
+
+.btn-default {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-primary,
+.btn-success,
+.btn-error,
+.btn-warning {
+
+}
+
+.btn-primary {
+  background-color: #a4e4ff;
+}
+
+.btn-success {
+  background-color: #dcffa4;
+}
+
+.btn-error {
+  background-color: #efabab;
+}
+
+.btn-warning {
+  background-color: #ffe0a4;
+}
+
